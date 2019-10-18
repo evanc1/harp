@@ -1,0 +1,19 @@
+{
+  "Aatrox": {
+    "id": "266",
+    "key": "Aatrox",
+    "name": "Aatrox",
+    "origin": ["Demon"],
+    "class": ["Blademaster"],
+    "cost": 3
+    },
+
+    "Ahri": {
+      "id": "103",
+      "key": "Ahri",
+      "name": "Ahri",
+      "cost": 2,
+      "origin": ["Wild"],
+      "class": ["Sorcerer"]
+      }
+}
