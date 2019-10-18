@@ -1,0 +1,8 @@
+h1 Welcome to Harp.
+
+
+.row
+ each champion, slug in public.champions._data
+  .champCard
+    .champName #{ champion.name }
+    .champData #{ champion.origin } | #{ champion.class }

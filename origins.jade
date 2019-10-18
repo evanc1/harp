@@ -1,0 +1,8 @@
+
+.row
+ each champion, slug in public.champions._data
+  - origin = champion.origin
+  if (origin  == 'Demon')
+    .champCard
+      .champName #{ champion.name }
+      .champData #{ champion.origin } | #{ champion.class }
